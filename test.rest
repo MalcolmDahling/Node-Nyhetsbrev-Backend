@@ -1,0 +1,17 @@
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "email": "asdf@asdf.se",
+    "password":"asdf",
+    "subscription":true
+}
+
+###
+
+POST http://localhost:3000/users/loggedIn
+Content-Type: application/json
+
+{
+    "id": "mIue2r2BFKj1pF1ojGnH0"
+}
